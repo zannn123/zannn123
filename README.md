@@ -19,6 +19,12 @@
 ### ⚡ *"Synthesizing artificial cognitive logic with silicon circuits."* ⚡
 
 <p align="center">
+  <a href="https://zannn123.github.io/zannn123/">
+    <img src="https://img.shields.io/badge/▶_LAUNCH_INTERACTIVE_PIXEL_PROFILE-00F0FF?style=for-the-badge&logo=retroarch&logoColor=black" alt="Launch Interactive Web App" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=ZANNN123%3A+BSCPE+COMPUTER+ENGINEER;SPECIALIZATION%3A+AI+%26+SYSTEM+ARCHITECTURE;INITIALIZING+NEURAL+CORES...;SYSTEM+DIAGNOSTICS%3A+100%25+OPTIMAL" alt="Typing SVG" />
 </p>
 
