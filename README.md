@@ -1,71 +1,55 @@
 <div align="center">
 
-# 👾 ZANNN123 // LEVEL 99 AI OPERATOR 👾
-
-```text
-  __________________________________________________________
- /                                                          \
-|   [!] SYSTEM STATUS: ONLINE     HP: [██████████] 100/100   |
-|   [~] CLASS: BSCPE ENGINEER     MP: [██████████] 999/999   |
-|   [*] AI CORE: ACTIVE           XP: [████████░░]  88/100   |
- \__________________________________________________________/
-          \   ^__^
-           \  (oo)\_______
-              (__)\       )\/\
-                  ||----w |
-                  ||     ||
-```
-
-### ⚡ *"Synthesizing artificial cognitive logic with silicon circuits."* ⚡
+# ⚡ zannn123 // AI Systems & Computer Architecture ⚡
 
 <p align="center">
   <a href="https://zannn123.github.io/zannn123/">
-    <img src="https://img.shields.io/badge/▶_LAUNCH_INTERACTIVE_PIXEL_PROFILE-00F0FF?style=for-the-badge&logo=retroarch&logoColor=black" alt="Launch Interactive Web App" />
+    <img src="https://img.shields.io/badge/▶_LAUNCH_LIVE_CYBER_TERMINAL_PROFILE-58A6FF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Live Profile" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=ZANNN123%3A+BSCPE+COMPUTER+ENGINEER;SPECIALIZATION%3A+AI+%26+SYSTEM+ARCHITECTURE;INITIALIZING+NEURAL+CORES...;SYSTEM+DIAGNOSTICS%3A+100%25+OPTIMAL" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=zannn123%3A+BSCpE+Computer+Engineer;Specialization%3A+AI+Systems+%26+Full-Stack+Architecture;Synthesizing+cognitive+neural+models+with+silicon;Live+GitHub+Mesh+Connected" alt="Typing SVG" />
 </p>
 
 ---
 
-### 🎮 CHARACTER STATS (RPG MATRIX)
-
-| ATTRIBUTE | SKILL LEVEL | DOMAIN |
-| :--- | :---: | :--- |
-| 🧠 **INT** | `[█████████░] 98/100` | Machine Learning, AI Pipelines & Neural Architecture |
-| ⚡ **AGI** | `[█████████░] 92/100` | Full-Stack Rapid Prototyping & Modern UI Systems |
-| 🛡️ **DEF** | `[█████████░] 95/100` | Linux Kernel, System Security & Micro-services |
-| 🛠️ **STR** | `[████████░░] 88/100` | Computer Engineering, Embedded Systems & Hardware Logic |
-| 🔮 **LUK** | `[██████████] 99/100` | Debugging Intuition & Bug Annihilation |
-
----
-
-### 🎒 EQUIPPED INVENTORY
+### 💻 SYSTEM ARCHITECTURE & TECH MATRIX
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PYTHON-MYTHIC-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TYPESCRIPT-EPIC-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2FC%2B%2B-LEGENDARY-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/LINUX-RELIC-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/DOCKER-RARE-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/GIT-ARTIFACT-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,pytorch,ts,js,c,cpp,arduino,linux,docker,git,vue,html,css" />
+  </a>
 </p>
 
 ---
 
-### 📜 ACTIVE QUEST LOG (FEATURED REPOSITORIES)
+### 📊 REAL-TIME GITHUB TELEMETRY
 
-- 🏰 **[MAIN QUEST]** [R.I.Z.A.L. Campus Assist](https://github.com/zannn123/rizal_campus) — *AI-assisted academic ecosystem and neural campus backend.*
-- 🛡️ **[GUILD MISSION]** [bscpe.S.Y.N.C.](https://github.com/zannn123/bscpe.S.Y.N.C.) — *Student Yield & Network Core for Computer Engineering scholars.*
-- 🌌 **[SIDE EXPEDITION]** [Aura Landing](https://github.com/zannn123/Aura-Landing-page) — *Cyberpunk aesthetic interface and responsive portal.*
-- 🗺️ **[EXPLORATION]** [Dapitan Tourism](https://github.com/zannn123/DAPITAN-TOURISM) — *Digital cultural heritage expedition framework.*
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=zannn123&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=BC8CFF&text_color=C9D1D9" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zannn123&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zannn123&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=BC8CFF&fire=FF7B72&currStreakLabel=58A6FF" alt="GitHub Streak" />
+</p>
+
+---
+
+### 🚀 ACTIVE PRODUCTION REPOSITORIES
+
+- 🧠 **[rizal_campus](https://github.com/zannn123/rizal_campus)** — *AI-assisted campus ecosystem with intelligent student and administrative backend architecture.*
+- ⚡ **[Aura-Landing-Page](https://github.com/zannn123/Aura-Landing-Page)** — *High-performance cyberpunk landing architecture showcasing dynamic responsive UI.*
+- 🛡️ **[bscpe.S.Y.N.C.](https://github.com/zannn123/bscpe.S.Y.N.C.)** — *Student Yield & Network Core for Computer Engineering scholars.*
+- 🗺️ **[DAPITAN-TOURISM](https://github.com/zannn123/DAPITAN-TOURISM)** — *Digital cultural heritage exploration platform.*
+- ⚙️ **[FINAL_PROJECT_2](https://github.com/zannn123/FINAL_PROJECT_2)** — *C++ embedded / systems engineering codebase.*
+- 🌐 **[RIZAL-Backend](https://github.com/zannn123/RIZAL-Backend)** — *Vue & full-stack API services for the RIZAL ecosystem.*
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f0ff,100:ff007f&height=120&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:bc8cff&height=120&section=footer" width="100%"/>
 </p>
 
 </div>
