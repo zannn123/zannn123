@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZANNN123 // Retro Pixel AI Bot Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Retro CRT Scanline & Phosphor Overlay -->
+  <div id="crt-overlay"></div>
+
+  <div class="app-container">
+    <!-- ARCADE HEADER / STATUS BAR -->
+    <header class="retro-header">
+      <div class="brand-section">
+        <div class="pulsing-led"></div>
+        <div class="brand-title">SYSTEM: ONLINE // BOT-ID: ZANNN123</div>
+      </div>
+      <div class="header-controls">
+        <button id="sound-toggle-btn" class="retro-btn-sm" title="Toggle 8-bit Synthesizer">[SFX: OFF]</button>
+        <button id="crt-toggle-btn" class="retro-btn-sm active" title="Toggle Scanlines">[CRT: ON]</button>
+      </div>
+    </header>
+
+    <!-- HERO SECTION: AVATAR & CHARACTER HUD -->
+    <section class="hero-layout">
+      <!-- Animated Pixel Art Canvas Box -->
+      <div class="avatar-panel pixel-box">
+        <div class="canvas-wrapper">
+          <canvas id="avatar-canvas" width="220" height="220"></canvas>
+        </div>
+        <div class="avatar-hint">[ CLICK AVATAR TO INTERACT ]</div>
+      </div>
+
+      <!-- Character RPG Stats HUD -->
+      <div class="character-hud pixel-box pixel-box-cyan">
+        <div class="char-title-row">
+          <div>
+            <h1 class="char-name">ZANNN123</h1>
+            <p class="char-role">⚡ CYBER-ARCHITECT & AI BOT ENGINEER</p>
+          </div>
+          <div class="char-badges">
+            <span class="badge" id="player-level">LVL 99</span>
+            <span class="badge" style="border-left-color: var(--neon-cyan)">BSCPE</span>
+          </div>
+        </div>
+
+        <!-- RPG Vitals -->
+        <div class="vitals-grid">
+          <div class="vital-row">
+            <span class="vital-label hp">HP</span>
+            <div class="vital-bar-frame">
+              <div class="vital-bar-fill hp" style="width: 100%;"></div>
+            </div>
+            <span class="vital-val">100 / 100</span>
+          </div>
+
+          <div class="vital-row">
+            <span class="vital-label mp">MP</span>
+            <div class="vital-bar-frame">
+              <div class="vital-bar-fill mp" style="width: 100%;"></div>
+            </div>
+            <span class="vital-val">999 / 999</span>
+          </div>
+
+          <div class="vital-row" id="exp-bar" style="cursor: pointer;" title="Click to boost EXP!">
+            <span class="vital-label exp">EXP</span>
+            <div class="vital-bar-frame">
+              <div class="vital-bar-fill exp" id="exp-fill" style="width: 88%;"></div>
+            </div>
+            <span class="vital-val" id="exp-text">88 / 100</span>
+          </div>
+        </div>
+
+        <!-- Attributes -->
+        <div class="attributes-grid">
+          <div class="attr-chip"><span class="attr-name">INT [AI/ML]</span><span class="attr-num">98</span></div>
+          <div class="attr-chip"><span class="attr-name">AGI [FULLSTACK]</span><span class="attr-num">92</span></div>
+          <div class="attr-chip"><span class="attr-name">STR [HARDWARE]</span><span class="attr-num">88</span></div>
+          <div class="attr-chip"><span class="attr-name">DEF [LINUX/SEC]</span><span class="attr-num">95</span></div>
+          <div class="attr-chip"><span class="attr-name">LUK [DEBUG]</span><span class="attr-num">99</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI DIALOG TERMINAL (RETRO RPG TEXT BOX) -->
+    <section class="terminal-panel pixel-box">
+      <div class="terminal-header">
+        <div class="terminal-tag">
+          <span>👾</span>
+          <span>AI-BOT COMM-LINK // ZANNN-AI v2.4</span>
+        </div>
+        <div style="font-family: var(--font-pixel); font-size: 8px; color: var(--neon-cyan);">[ACTIVE CHANNEL]</div>
+      </div>
+      <div class="terminal-body" id="terminal-text">
+        INITIALIZING NEURAL LINK...
+      </div>
+      <div class="terminal-choices" id="terminal-choices">
+        <!-- Interactive buttons inserted dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- INVENTORY & TECH GEAR SLOTS -->
+    <section class="pixel-box">
+      <h2 class="section-title"><span>🎒</span> EQUIPPED TECH ARTIFACTS</h2>
+      <div class="inventory-layout">
+        <div class="inventory-grid">
+          <div class="item-slot selected" data-item="python" title="Python Neural Matrix">
+            <span class="slot-icon">🐍</span>
+            <span class="slot-tag">PYTHON</span>
+          </div>
+          <div class="item-slot" data-item="hardware" title="BSCPE Hardware Chip">
+            <span class="slot-icon">⚡</span>
+            <span class="slot-tag">BSCPE</span>
+          </div>
+          <div class="item-slot" data-item="js" title="TypeScript Cyber-Blade">
+            <span class="slot-icon">⚔️</span>
+            <span class="slot-tag">TS / JS</span>
+          </div>
+          <div class="item-slot" data-item="linux" title="Linux Kernel Terminal">
+            <span class="slot-icon">🐧</span>
+            <span class="slot-tag">LINUX</span>
+          </div>
+          <div class="item-slot" data-item="git" title="Chrono-Git Drive">
+            <span class="slot-icon">🐙</span>
+            <span class="slot-tag">GIT</span>
+          </div>
+          <div class="item-slot" data-item="docker" title="Container Pod">
+            <span class="slot-icon">📦</span>
+            <span class="slot-tag">DOCKER</span>
+          </div>
+        </div>
+
+        <!-- Selected Item Detail Inspection Card -->
+        <div id="item-details">
+          <div class="item-card">
+            <div class="item-title mythic">PYTHON NEURAL MATRIX</div>
+            <div class="item-meta"><span>[MYTHIC]</span> <span>AI / Core Engine</span></div>
+            <div class="item-stats">⚡ STATS: +50 INT, +40 Deep Learning</div>
+            <div class="item-desc">An ancient high-level construct capable of breathing cognitive neural networks into cold silicon.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUEST BOARD / REAL GITHUB PROJECTS SHOWCASE -->
+    <section class="pixel-box pixel-box-pink" id="quest-board">
+      <h2 class="section-title" style="color: var(--neon-pink);"><span>📜</span> ACTIVE CAMPAIGNS & REPOSITORY QUESTS</h2>
+      
+      <div class="quest-filters">
+        <button class="filter-btn active" data-filter="all">[ALL QUESTS]</button>
+        <button class="filter-btn" data-filter="main">[MAIN CAMPAIGN]</button>
+        <button class="filter-btn" data-filter="side">[SIDE QUESTS]</button>
+        <button class="filter-btn" data-filter="guild">[GUILD MISSIONS]</button>
+      </div>
+
+      <div class="quest-list">
+        <!-- Quest 1: RIZAL -->
+        <a href="https://github.com/zannn123/rizal_campus" target="_blank" class="quest-card" data-category="main">
+          <div class="quest-info">
+            <span class="quest-badge main">MAIN QUEST</span>
+            <span class="quest-name">R.I.Z.A.L. CAMPUS ASSIST</span>
+            <span class="quest-desc">AI-assisted campus ecosystem & neural academic backend</span>
+          </div>
+          <div class="quest-meta">
+            <span class="quest-reward">+5,000 EXP // AI CORE</span>
+            <span class="quest-action-btn">INSPECT &gt;</span>
+          </div>
+        </a>
+
+        <!-- Quest 2: AURA LANDING -->
+        <a href="https://github.com/zannn123/Aura-Landing-page" target="_blank" class="quest-card" data-category="side">
+          <div class="quest-info">
+            <span class="quest-badge side">SIDE QUEST</span>
+            <span class="quest-name">AURA LANDING PORTAL</span>
+            <span class="quest-desc">Cyberpunk responsive interface & neon landing architecture</span>
+          </div>
+          <div class="quest-meta">
+            <span class="quest-reward">+2,500 EXP // UI/UX</span>
+            <span class="quest-action-btn">INSPECT &gt;</span>
+          </div>
+        </a>
+
+        <!-- Quest 3: SYNC -->
+        <a href="https://github.com/zannn123/bscpe.S.Y.N.C." target="_blank" class="quest-card" data-category="guild">
+          <div class="quest-info">
+            <span class="quest-badge guild">GUILD MISSION</span>
+            <span class="quest-name">bscpe.S.Y.N.C.</span>
+            <span class="quest-desc">Student Yield & Network Core - Computer Engineering portal</span>
+          </div>
+          <div class="quest-meta">
+            <span class="quest-reward">+4,000 EXP // HARDWARE</span>
+            <span class="quest-action-btn">INSPECT &gt;</span>
+          </div>
+        </a>
+
+        <!-- Quest 4: DAPITAN -->
+        <a href="https://github.com/zannn123/DAPITAN-TOURISM" target="_blank" class="quest-card" data-category="side">
+          <div class="quest-info">
+            <span class="quest-badge side">EXPLORATION</span>
+            <span class="quest-name">DAPITAN TOURISM EXPEDITION</span>
+            <span class="quest-desc">Digital heritage showcase & cultural exploration system</span>
+          </div>
+          <div class="quest-meta">
+            <span class="quest-reward">+2,000 EXP // FULLSTACK</span>
+            <span class="quest-action-btn">INSPECT &gt;</span>
+          </div>
+        </a>
+
+        <!-- Quest 5: ASH AND BUFF -->
+        <a href="https://github.com/zannn123/ash-and-buff" target="_blank" class="quest-card" data-category="guild">
+          <div class="quest-info">
+            <span class="quest-badge guild">CO-OP BATTLE</span>
+            <span class="quest-name">ASH AND BUFF</span>
+            <span class="quest-desc">Interactive utility & gameplay mechanics framework</span>
+          </div>
+          <div class="quest-meta">
+            <span class="quest-reward">+3,000 EXP // GAME DEV</span>
+            <span class="quest-action-btn">INSPECT &gt;</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="retro-footer">
+      <div>[ PRESS START TO CONTINUE // © 2026 ZANNN123 ]</div>
+      <div>
+        <a href="https://github.com/zannn123" target="_blank" class="footer-link">&gt; GITHUB REPOSITORY ARCHIVE &lt;</a>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Audio & Script Engines -->
+  <script src="audio.js"></script>
+  <script src="canvas-avatar.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
